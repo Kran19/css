@@ -1,0 +1,76 @@
+/* *{
+    background-color:pink;
+} */
+
+#table{
+    background-color: rgb(128, 43, 226);
+    border: 5px solid black;
+    transition: all 3s;
+}
+
+/* #table:hover{
+    height: 400px;
+    width: 800px;
+} */
+
+#nav{
+
+    background-color: black;
+    color: aliceblue;
+}
+
+#nav:hover{
+
+    font-size: xx-large;
+}
+
+td{
+    background-color: lightgreen;
+    color: darkblue;
+}
+
+tr{
+    background-color: darkgreen;
+}
+
+.main{
+
+     border: 2px solid black;
+     background-color: rgba(65, 225, 73, 0.256);
+     display: inline-block;
+     text-align: center;
+     padding: 10px;
+     margin: 50px;
+     transition: all;
+     transition-duration: 3s;
+}
+
+.main:active{
+
+    width: 300px;
+}
+
+.c1.c2.c3{
+
+    height: 30px;
+    background-color: darkgray;
+    color: red;
+    text-align: center;
+}
+
+/* .c2{
+
+    background-color: darkgray;
+}
+
+.c3{
+
+    color: red;
+} */
+
+button:hover{
+
+    color: red;
+    font-size: 25px;
+
+}

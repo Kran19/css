@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--  You can apply multiple classes on element , not id. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p{
+    
+            background-color: aqua;
+            font-weight: 900;
+            font-size: xx-large;
+            color: darkblue;
+            display: inline-block;
+            text-decoration: wavy underline;
+            border: 1px dashed brown;
+        }
+
+        span{
+            
+            font-weight: 900;
+            font-size: xx-large;
+            color: rgb(139, 0, 90);
+            display: inline-block;
+            text-decoration: double underline;
+            /* border: 1px dashed brown; */
+        }
+    
+        span:hover {
+    
+            background-color: lightgray;
+            font-size: x-large;
+            color: blueviolet;
+            border: 2px dotted black;
+        
+        }
+
+        
+    </style>
+    
+</head>
+
+<body style="background-color: steelblue;">
+
+<div class="main">
+
+
+    <p id="para">I'm karan.</p> <br>
+
+    <span>I'm HaPPY.</span> 
+</div>
+
+<div class="c1 c2 c3">
+      <i>This div has 2 classes.</i>
+</div>
+
+<br> <br>
+
+
+    <table id="table" border="2">
+
+        <tr id="nav">
+            <th>COLUMN 1</th>
+            <th>COLUMN 2</th>
+            <th>COLUMN 3</th>
+            <th>COLUMN 4</th>
+        </tr>
+
+        <tr>
+            <td colspan="2">R2COL1</td>
+            <td colspan="2">R2COL2</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">R3COL1</td>
+            <td colspan="3">R3COL2</td>
+        </tr>
+
+
+        <tr >
+            <td colspan="3">
+                <table border="2">
+                <tr>
+                    <td rowspan="2">T2COL1</td>
+                    <td>COL2</td>
+                    <td colspan="2">COL3</td>
+                </tr>
+                <tr>
+                    <td>R2COL2</td>
+                    <td>
+                        <table border="2">
+                            <tr>
+                                <td>T3COL1R1</td>
+                                <td rowspan="2">COL2</td>
+                            </tr>
+                            <tr>
+                                <td>T3COL1R2</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                   
+                </table>
+            </td>
+        </tr>
+
+
+    </table>
+
+    <br>
+
+    <a href="#"><button>Click Here</button></a>
+
+    <br>
+
+   
+    
+
+</body>
+
+</html>
